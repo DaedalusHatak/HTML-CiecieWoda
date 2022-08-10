@@ -402,7 +402,7 @@ width:fit-content;
   body {
     width: auto;
   }
-  img {
+  .navi > img {
     width: 100%;
 
     float: left;
@@ -421,7 +421,7 @@ width:fit-content;
     position: relative;
     display: table;
   }
-  a {
+  ul > a {
     padding: 25px 0;
   }
   .tab {
@@ -433,4 +433,9 @@ width:fit-content;
   .item-4 {
     font-size: 30px;
   }
+  .gallery{width: 200px;}
+  .img{
+	height:min-content;
+	width: 100%;
+}
 }
