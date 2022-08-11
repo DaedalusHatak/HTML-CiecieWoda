@@ -66,46 +66,44 @@ nav > ul > li > a {
 }
 
 .block {
-	background: #212121;
-	display: block;
-	justify-content: center;
-	text-align: center;
-	margin-left: auto;
+  display: block;
+  text-align: center;
+  margin-left: auto;
 	margin-right: auto;
 }
 
-.first {
-	padding-top: 300px;
-	padding-bottom: 300px;
+.bgimg {
+  background: #212121;
+	padding-top: 150px;
+	padding-bottom: 150px;
 	background-image: url('/probva.jpg');
 	background-blend-mode: soft-light;
-
 	position: relative;
 	height: max-content;
 	background-size: cover;
-
-	background-repeat: no-repeat;
 	background-attachment: fixed;
 	padding-inline: 0;
 }
-.second {
+.dark {
 	position: relative;
 	height: max-content;
 	background-size: cover;
 
 	padding-inline: 0;
 }
-.content {
+.title {
 	color: #e4e4e4;
 	background: none;
 }
-.content p {
+.title p {
 	margin: 55px 50px;
 	font-size: 30px;
 }
-.margin {
+.title {
 	margin-inline: 10%;
 }
+
+/* GALERIA+++++++++++++++++++++++++++++++++++++++++++++*/
 .gallery {
 	width: 800px;
 	position: relative;
@@ -157,7 +155,6 @@ nav > ul > li > a {
 .numbertext {
 	color: white;
 	-webkit-font-smoothing: antialiased;
-
 	font-size: 24px;
 	text-shadow: #000 0px 0px 4px, #000 0px 0px 4px, #000 0px 0px 4px,
 		#000 0px 0px 4px, #000 0px 0px 4px, #000 0px 0px 4px;
@@ -165,21 +162,25 @@ nav > ul > li > a {
 	position: absolute;
 	top: 0;
 }
-.h1 {
+/* TEXTS */
+.big-text {
 	font-size: 50px;
 	padding-top: 30px;
 	margin-top: 0;
 }
-.span {
+.span-big {
 	font-size: 40px;
 }
-.tab {
+
+
+/* Animated text */
+.animtext {
 	position: relative;
 	overflow: hidden;
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 50px;
-	height: 100px;
-	background-color: #e4e4e4;
+		background-color: #e4e4e4;
+		height: 40px;
 }
 .item-1,
 .item-2,
@@ -220,7 +221,6 @@ nav > ul > li > a {
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-
 	padding: 55px 50px 20px 50px;
 }
 
@@ -237,8 +237,9 @@ nav > ul > li > a {
 	width: 40%;
 }
 .footer img {
+	margin-top: 20px;
 	height: 150px;
-  width: 400px;
+	width: 400px;
 }
 /* Footer Down */
 
@@ -376,10 +377,7 @@ nav > ul > li > a {
 	.item-4 {
 		font-size: 45px;
 	}
-	.tab {
-		height: 40px;
-		padding-top: 30px;
-	}
+
 }
 
 @media screen and (min-width: 910px) and (max-width: 950px) {
@@ -389,7 +387,7 @@ nav > ul > li > a {
 	.item-4 {
 		font-size: 40px;
 	}
-	.tab {
+	.animtext{
 		height: 40px;
 		padding-top: 30px;
 	}
@@ -429,7 +427,7 @@ nav > ul > li > a {
 		padding: 10px;
 	}
 
-	.tab {
+	.animtext {
 		height: 116px;
 	}
 	.item-1,
@@ -482,7 +480,7 @@ nav > ul > li > a {
 		padding: 10px;
 	}
 
-	.tab {
+	.animtext {
 		height: 90px;
 	}
 
