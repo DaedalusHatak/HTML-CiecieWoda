@@ -213,6 +213,34 @@ nav > ul > li > a {
 	margin-inline: 0;
 	margin: auto;
 }
+.white {
+	background-color: #fff;
+	color:dark;
+	padding-top: 40px;
+}
+.dark {
+	background-color: #212121;
+	color:white;
+	padding-top: 40px;
+}
+.uslugi{
+	
+	margin: auto;
+	width:60%;
+}
+.uslugi li{
+	list-style-type: none;
+}
+.uslugi li {
+	padding: 10px;
+}
+.center{
+	text-align: center;
+
+}
+.text {
+font-size: 26px;
+}
 .slideshow {
 	justify-content: center;
 	margin-inline: 0%;
@@ -458,9 +486,10 @@ nav > ul > li > a {
 		float: left;
 	}
 	header {
-		height: 230px;
+		height: 356px;
 	}
 	.navi {
+
 		display: block;
 		float: right;
 		position: relative;
