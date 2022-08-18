@@ -165,17 +165,16 @@ nav > ul > li > a {
 }
 /* END OF FOOTER */
 
-
 /* BODY */
 .block {
-  display: block;
-  text-align: center;
-  margin-left: auto;
+	display: block;
+	text-align: center;
+	margin-left: auto;
 	margin-right: auto;
 }
 
 .bgimg {
-  background: #212121;
+	background: #212121;
 	padding-top: 150px;
 	padding-bottom: 150px;
 	background-image: url('/probva.jpg');
@@ -188,10 +187,11 @@ nav > ul > li > a {
 }
 .dark {
 	position: relative;
-	height:700px;
+	height: 945px;
+
 	background-size: cover;
 	background-color: #212121;
-	color:white;
+	color: white;
 	padding-top: 40px;
 	padding-inline: 0;
 }
@@ -205,71 +205,61 @@ nav > ul > li > a {
 	font-size: 30px;
 }
 
-
 .white {
 	background-color: #fff;
-	color:dark;
+	color: dark;
 	padding-top: 40px;
 }
 
-.uslugi{
-	
+.uslugi {
 	margin: auto;
-	width:60%;
+	width: 60%;
 }
-.uslugi li{
+.uslugi li {
 	list-style-type: none;
 }
 .uslugi li {
 	padding: 10px;
 }
-.center{
+.center {
 	text-align: center;
-
 }
 .text {
-font-size: 26px;
+	font-size: 26px;
 }
 /* GALLERY*/
 .gallery {
-	width: 800px;
+	width: 600px;
+	height:max-content;
+	margin:auto;
 
-	object-fit: contain;
-	position: relative;
-	display: block;
-	justify-content: center;
-	margin-inline: 0;
-	margin: auto;
-} 
 
-.slideshow img{
-	
-	vertical-align: top;
-	width:100%;
-	max-height:min-content;
-	position: relative;
-	justify-content: center;
-	margin-inline: 0%;
-	
-	margin: 0;
-	
 
 }
-.img {
-	height:auto;
-	width:inherit;
-	width: 800px;
-	
-	text-align: center;
+.slideshow {
+	margin-inline: 0%;
+	position: relative;
 
+	margin: 0;
+}
+.slideshow img {
+	width: 100%;
+	height: 20%;
+}
+
+.buttons{
+	position:absolute;
+	width:300px;
+	height:20px;
 }
 .prev,
 .next {
 	cursor: pointer;
 	position: absolute;
-	top: 300px;
-
-	padding: 16px;
+	top: 55%;
+	justify-content:space-between;
+	margin:auto;
+	text-align: left;
 	margin-top: -50px;
 	color: white;
 
@@ -282,10 +272,10 @@ font-size: 26px;
 	-webkit-font-smoothing: antialiased;
 }
 .prev {
-	left: 0;
+	margin:auto;
 }
 .next {
-	right: 0;
+	margin:auto;
 	border-radius: 3px 0 0 3px;
 }
 
@@ -309,15 +299,14 @@ font-size: 26px;
 	font-size: 40px;
 }
 
-
 /* Animated text */
 .animtext {
 	position: relative;
 	overflow: hidden;
 	padding-top: 30px;
 	padding-bottom: 50px;
-		background-color: #e4e4e4;
-		height: 90px;
+	background-color: #e4e4e4;
+	height: 90px;
 }
 .item-1,
 .item-2,
@@ -410,7 +399,6 @@ font-size: 26px;
 	}
 }
 
-
 /* MEDIA */
 @media screen and (min-width: 950px) and (max-width: 2100px) {
 	.item-1,
@@ -419,9 +407,9 @@ font-size: 26px;
 	.item-4 {
 		font-size: 45px;
 	}
-.animtext{
-	height:40px;
-}
+	.animtext {
+		height: 40px;
+	}
 }
 
 @media screen and (min-width: 910px) and (max-width: 950px) {
@@ -431,7 +419,7 @@ font-size: 26px;
 	.item-4 {
 		font-size: 40px;
 	}
-	.animtext{
+	.animtext {
 		height: 30px;
 		padding-top: 30px;
 	}
@@ -491,15 +479,14 @@ font-size: 26px;
 
 @media screen and (min-width: 390px) and (max-width: 653px) {
 	.navi > img {
-		width:100%;
-		height:200%;
+		width: 100%;
+		height: 200%;
 		float: left;
 	}
 	header {
 		height: 428px;
 	}
 	.navi {
-
 		display: block;
 		float: right;
 		position: relative;
@@ -524,8 +511,8 @@ font-size: 26px;
 		display: inline-block;
 		padding: 10px;
 	}
-	.bgimg img{
-		width:112px;
+	.bgimg img {
+		width: 112px;
 	}
 	.animtext {
 		height: 55px;
@@ -537,8 +524,9 @@ font-size: 26px;
 	.item-4 {
 		font-size: 35px;
 	}
-	.gallery, .title{
-		margin:auto;
+	.gallery,
+	.title {
+		margin: auto;
 		width: 350px;
 	}
 	.img {
@@ -546,17 +534,18 @@ font-size: 26px;
 		width: 350px;
 	}
 
-	.footer-center, .footer-right{
+	.footer-center,
+	.footer-right {
 		display: block;
-		width:80%;
+		width: 80%;
 		padding: 30px;
 		padding-bottom: 30px;
 	}
 	.footer {
-		width:100%;
+		width: 100%;
 		padding: 0;
 		margin: auto;
-		width:fit-content;
+		width: fit-content;
 	}
 }
 @media screen and (max-width: 390px) {
@@ -594,28 +583,28 @@ font-size: 26px;
 	.item-4 {
 		font-size: 30px;
 	}
-	.animtext{
-		height:50px;
+	.animtext {
+		height: 50px;
 	}
 	.gallery {
-		margin:0;
-		width:100%;
-
+		margin: 0;
+		width: 100%;
 	}
 
-	.footer-center, .footer-right{
+	.footer-center,
+	.footer-right {
 		display: block;
-		width:80%;
+		width: 80%;
 		padding: 30px;
 		padding-bottom: 30px;
 	}
 	.footer {
-		width:100%;
+		width: 100%;
 		padding: 0;
 		margin: auto;
-		width:fit-content;
+		width: fit-content;
 	}
 	.footer-left img {
-		width:fit-content;
+		width: fit-content;
 	}
 }
