@@ -68,6 +68,7 @@ nav > ul > li > a {
 /* FOOTER */
 /* ----------------------------------------------------------------------------------------------------------------- */
 .footer {
+	position: relative;
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
@@ -187,43 +188,30 @@ nav > ul > li > a {
 }
 .dark {
 	position: relative;
-	height: max-content;
+	height:700px;
 	background-size: cover;
-
+	background-color: #212121;
+	color:white;
+	padding-top: 40px;
 	padding-inline: 0;
 }
 .title {
 	color: #e4e4e4;
 	background: none;
+	margin-inline: 10%;
 }
 .title p {
 	margin: 55px 50px;
 	font-size: 30px;
 }
-.title {
-	margin-inline: 10%;
-}
 
-/* GALLERY*/
-.gallery {
-	width: 800px;
-	
-	position: relative;
-	display: block;
-	justify-content: center;
-	margin-inline: 0;
-	margin: auto;
-}
+
 .white {
 	background-color: #fff;
 	color:dark;
 	padding-top: 40px;
 }
-.dark {
-	background-color: #212121;
-	color:white;
-	padding-top: 40px;
-}
+
 .uslugi{
 	
 	margin: auto;
@@ -242,27 +230,44 @@ nav > ul > li > a {
 .text {
 font-size: 26px;
 }
-.slideshow {
+/* GALLERY*/
+.gallery {
+	width: 800px;
+
+	object-fit: contain;
+	position: relative;
+	display: block;
+	justify-content: center;
+	margin-inline: 0;
+	margin: auto;
+} 
+
+.slideshow img{
+	
+	vertical-align: top;
+	width:100%;
+	max-height:min-content;
+	position: relative;
 	justify-content: center;
 	margin-inline: 0%;
-	box-sizing: border-box;
+	
 	margin: 0;
-	object-fit: cover;
-	width: fit-content;
+	
+
 }
 .img {
-	display: block;
-	max-height:100%;
-	max-width: 100%;
+	height:auto;
+	width:inherit;
+	width: 800px;
 	
 	text-align: center;
-	object-fit:cover;
+
 }
 .prev,
 .next {
 	cursor: pointer;
 	position: absolute;
-	top: 50%;
+	top: 300px;
 
 	padding: 16px;
 	margin-top: -50px;
@@ -312,7 +317,7 @@ font-size: 26px;
 	padding-top: 30px;
 	padding-bottom: 50px;
 		background-color: #e4e4e4;
-		height: 40px;
+		height: 90px;
 }
 .item-1,
 .item-2,
@@ -414,7 +419,9 @@ font-size: 26px;
 	.item-4 {
 		font-size: 45px;
 	}
-
+.animtext{
+	height:40px;
+}
 }
 
 @media screen and (min-width: 910px) and (max-width: 950px) {
@@ -425,7 +432,7 @@ font-size: 26px;
 		font-size: 40px;
 	}
 	.animtext{
-		height: 40px;
+		height: 30px;
 		padding-top: 30px;
 	}
 	.gallery {
@@ -465,7 +472,7 @@ font-size: 26px;
 	}
 
 	.animtext {
-		height: 116px;
+		height: 100px;
 	}
 	.item-1,
 	.item-2,
@@ -521,14 +528,14 @@ font-size: 26px;
 		width:112px;
 	}
 	.animtext {
-		height: 90px;
+		height: 55px;
 	}
 
 	.item-1,
 	.item-2,
 	.item-3,
 	.item-4 {
-		font-size: 40px;
+		font-size: 35px;
 	}
 	.gallery, .title{
 		margin:auto;
@@ -586,6 +593,9 @@ font-size: 26px;
 	.item-3,
 	.item-4 {
 		font-size: 30px;
+	}
+	.animtext{
+		height:50px;
 	}
 	.gallery {
 		margin:0;
