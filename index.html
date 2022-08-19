@@ -48,66 +48,77 @@
 
 			<div class="block dark title">
 				<p>Zapraszamy do naszej galerii:</p>
-				<div class="block gallery">
-					<div class="gal">
-						<div class="slideshow">
-							<div class="numbertext">1/5</div>
-							<img
-								class="img"
-								src="20220513_140331.jpg"
-								title
-								alt="Maszyna do ciecia woda"
-							/>
-						</div>
-						<div class="slideshow">
-							<div class="numbertext">2/5</div>
-							<img
-								class="img"
-								src="20220615_164519.jpg"
-								title
-								alt="Maszyna do ciecia woda"
-							/>
-						</div>
-						<div class="slideshow">
-							<div class="numbertext">3/5</div>
-							<img
-								class="img"
-								src="20220615_164524.jpg"
-								title
-								alt="Maszyna do ciecia woda"
-							/>
-						</div>
-						<div class="slideshow">
-							<div class="numbertext">4/5</div>
-							<img
-								class="img"
-								src="20220620_182540.jpg"
-								title
-								alt="Maszyna do ciecia woda"
-							/>
-						</div>
-						<div class="slideshow">
-							<div class="numbertext">5/5</div>
-							<img
-								class="img"
-								src="20220719_11354333 (2).png"
-								title
-								alt="Maszyna do ciecia woda"
-							/>
-						</div>
-						<div class="buttons">
-							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-						<a class="next" onclick="plusSlides(1)">&#10095;</a>
-						</div>
-						
-					</div>
-					
+				<div class="gal">
+					<div class="block gallery">
+						<ul class="slides">
+							<input type="radio" name="radio-btn" id="img-1" checked />
+							<li class="slide-container">
+								<div class="slide">
+									<img src="20220620_182540.jpg" />
+								</div>
+								<div class="nav">
+									<label for="img-5" class="prev"><span>&#x2039;</span></label>
+									<label for="img-2" class="next"><span>&#x203a;</span></label>
+								</div>
+							</li>
 
-				
+							<input type="radio" name="radio-btn" id="img-2" />
+							<li class="slide-container">
+								<div class="slide">
+									<img src="20220615_164524.jpg" />
+								</div>
+								<div class="nav">
+									<label for="img-1" class="prev"><span>&#x2039;</span></label>
+									<label for="img-3" class="next"><span>&#x203a;</span></label>
+								</div>
+							</li>
+
+							<input type="radio" name="radio-btn" id="img-3" />
+							<li class="slide-container">
+								<div class="slide">
+									<img src="20220719_11354333.png" />
+								</div>
+								<div class="nav">
+									<label for="img-2" class="prev">
+										<span>&#x2039;</span>
+									</label>
+									<label for="img-4" class="next"><span>&#x203a;</span></label>
+								</div>
+							</li>
+
+							<input type="radio" name="radio-btn" id="img-4" />
+							<li class="slide-container">
+								<div class="slide">
+									<img src="20220615_164519.jpg" />
+								</div>
+								<div class="nav">
+									<label  for="img-3" class="prev"><span>&#x2039;</span></label>
+									<label for="img-5" class="next"><span>&#x203a;</span></label>
+								</div>
+							</li>
+
+							<input type="radio" name="radio-btn" id="img-5" />
+							<li class="slide-container">
+								<div class="slide">
+									<img src="20220513_140331.jpg" />
+								</div>
+								<div class="nav">
+									<label for="img-4" class="prev"><span>&#x2039;</span></label>
+									<label for="img-1" class="next"><span>&#x203a;</span></label>
+								</div>
+							</li>
+
+							<li class="nav-dots">
+								<label for="img-1" class="nav-dot" id="img-dot-1"></label>
+								<label for="img-2" class="nav-dot" id="img-dot-2"></label>
+								<label for="img-3" class="nav-dot" id="img-dot-3"></label>
+								<label for="img-4" class="nav-dot" id="img-dot-4"></label>
+								<label for="img-5" class="nav-dot" id="img-dot-5"></label>
+							</li>
+						</ul>
+					</div>
 				</div>
-		
 			</div>
-			
 		</div>
 
 		<footer id="footer"></footer>
