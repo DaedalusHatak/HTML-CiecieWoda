@@ -639,7 +639,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 		width: fit-content;
 	}
 	.slides {width:90%;}
-	.nav label {width:15%;font-size: 80px;}
+	.nav label {width:15%;font-size: 120px;}
 }
 @media screen and (max-width: 390px) {
 	body {
@@ -701,5 +701,5 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 		width: fit-content;
 	}
 	.slides {width:90%;}
-.nav label {font-size: 80px;}
+.nav label {font-size: 120px;}
 }
