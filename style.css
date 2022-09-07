@@ -701,5 +701,5 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 		width: fit-content;
 	}
 	.slides {width:90%;}
-.nav label {font-size: 40px;}
+.nav label {font-size: 60px;}
 }
