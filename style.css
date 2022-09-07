@@ -228,20 +228,33 @@ nav > ul > li > a {
 	font-size: 26px;
 }
 /* GALLERY*/
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
-.gallery{
-	height:920px;
+
+.relative {
+	position: relative;
 }
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
 
 .slides {
     padding: 0;
-    width: 700px;
-    height: 920px;
+    width: 60%;
+	min-height: 100px;
+
     display: block;
     margin: 0 auto;
     position: relative;
 }
+.slide {
+    top: 0;
+    opacity: 0;
+	min-height: 100px;
+    display: block;
+    position: absolute;
 
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
 .slides * {
     user-select: none;
     -ms-user-select: none;
@@ -255,18 +268,7 @@ nav > ul > li > a {
 
 .slide-container { display: block; }
 
-.slide {
-    top: 0;
-    opacity: 0;
-    width: 700px;
-    height: 920px;
-    display: block;
-    position: absolute;
 
-    transform: scale(0);
-
-    transition: all .7s ease-in-out;
-}
 
 .slide img {
     width: 100%;
@@ -472,6 +474,11 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	.animtext {
 		height: 40px;
 	}
+	.footer img {
+		width:80%;
+	}
+
+
 }
 
 @media screen and (min-width: 910px) and (max-width: 950px) {
@@ -489,14 +496,15 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	.gallery {
 		width: 500px;
 	}
+	.footer img {
+		width:80%;
+	}
 	.img {
 		height: 500px;
 		width: 500px;
 	}
-	.slide{
-		width:100%;
-		height:auto;
-	}
+	
+
 }
 
 @media screen and (min-width: 653px) and (max-width: 910px) {
@@ -535,16 +543,28 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	.item-4 {
 		font-size: 50px;
 	}
-
+	.footer-center,
+	.footer-right {
+		display: block;
+		width: 80%;
+		padding: 30px;
+		padding-bottom: 30px;
+	}
+	.footer {
+		width: 100%;
+		padding: 0;
+		margin: auto;
+		width: fit-content;
+	}
 	.img {
 		height: 500px;
 		width: 500px;
 	}
-	.slide {
-		margin: auto;
-		width:100%;
-		height:auto;
-	}
+
+
+
+
+
 }
 
 @media screen and (min-width: 390px) and (max-width: 653px) {
@@ -597,14 +617,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	.nav {
 		height: auto;
 	}
-	.slides, .slide{		width:100%;
-		height:auto;}
 
-	.slide img{
-		-webkit-box-sizing: border-box;
-		width:100%;
-		height:auto;
-	}
 
 	.footer-center,
 	.footer-right {
