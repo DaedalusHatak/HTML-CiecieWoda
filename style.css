@@ -192,15 +192,15 @@ nav > ul > li > a {
 .uslugi {
 	margin: auto;
 	width: 60%;
-	
+	padding:0;
 }
 .f45 {font-size: 45px;}
+
 .uslugi li {
+	padding:10px;
 	list-style-type: none;
 }
-.uslugi li {
-	padding: 10px;
-}
+
 .center {
 	text-align: center;
 }
