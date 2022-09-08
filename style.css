@@ -369,7 +369,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	animation: anim-3 25s both infinite linear;
 }
 .item-4 {
-	animation: anim-4 2 5s forwards infinite linear;
+	animation: anim-4  25s forwards infinite linear;
 }
 /* ANIM KEYS */ 
 @keyframes anim-1 {
