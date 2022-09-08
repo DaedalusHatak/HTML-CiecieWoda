@@ -1,27 +1,48 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciecie Plazmowe</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-jQuery(function(){
-  jQuery("#header").load("header.html"); 
-});
-    </script>
-</head>
-<header id="header"></header>
-<body>
-  <div class="cieciePlazma-text">Rozszerzeniem naszych usług jest
-    CIĘCIE PLAZMOWE i TLENOWE
-    wykonywane przez firmę PLAZMET
-    (maszyna CNC) 
-  </div>
- <a href="http://plazmet.com.pl">
-  <img src="plazmet.png">
- </a>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ciecie Plazmowe</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script>
+			jQuery(function () {
+				jQuery('#header').load('header.html');
+			});
+			jQuery(function () {
+				jQuery('#footer').load('footer.html');
+			});
+		</script>
+	</head>
+	<header id="header"></header>
+	<body>
+		<div class="block white f45"
+			>Rozszerzeniem naszych usług jest<br />
+			CIĘCIE PLAZMOWE i TLENOWE<br />
+			wykonywane przez firmę PLAZMET<br />
+			(maszyny CNC)
+		</div>
+    <div class="contact white">
+      <div class="contact-left">
+       <a href="http://plazmet.com.pl/"><img src="plazmet.png" /></a> 
+      </div>
+      <div class="contact-center">
+        <div class="address">
+          <p><span>Ciesielska 2</span> 15-544 Białystok</p>
+        </div>
+        <div >
+          <p><a class="f45 phone" href="tel:+48-602-615-104">+48 602 615 104</a></p>
+        </div>
+        <div class="mail">
+          <p><a href="mailto:plazmetbialystok@o2.pl">plazmetbialystok@o2.pl</a></p>
+        </div>
+      </div>
+      
+
+    </div>
+
+		<footer id="footer"></footer>
+	</body>
 </html>
