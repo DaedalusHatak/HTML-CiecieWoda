@@ -329,12 +329,12 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 /* TEXTS */
 .big-text {
-	font-size: 50px;
+	font-size: 40px;
 	padding-top: 30px;
 	margin-top: 0;
 }
 .span-big {
-	font-size: 40px;
+	font-size: 35px;
 }
 /* Animated text */
 .animtext {
